@@ -1,0 +1,42 @@
+.navSection {
+  /* position: relative; */
+  width: 100%;
+  /* right: 59px; */
+}
+
+.mainNav {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  font: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.potatoImg {
+  height: 3vw;
+  width: 3vw;
+  transition: all ease-in-out .2s;
+}
+.potatoImg:hover {
+  height: 3.5vw;
+  width: 3.5vw;
+  background-position: 0;
+  opacity: 1;
+  box-shadow: 3px 1px 4px 2px #5A5A53;
+  background-color: #141414;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: all ease-in-out .2s;
+}
+
+.header {
+  font-size: 1.2vw;
+  color: white;
+  margin-left: 20px;
+}
+
+.searchForm {
+  margin-left: 20px;
+}

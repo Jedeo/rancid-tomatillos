@@ -1,0 +1,23 @@
+.posterImg {
+  height: 25vw;
+  width: 16vw;
+  padding:1vw;
+  margin:1vw;
+  opacity: 0.9;
+  background-color: #141414;
+  border-radius: 10px;
+  transition: all ease-in-out .2s;
+
+}
+
+.posterImg:hover {
+  background-position: 0;
+  opacity: 1;
+  height: 30vw;
+  width: 20vw;
+  box-shadow: 3px 1px 4px 2px #141414;
+  background-color: black;
+  transform: scale(1);
+  transform: rotate(-2deg);
+  transition: all ease-in-out .2s;
+}

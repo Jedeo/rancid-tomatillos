@@ -1,0 +1,53 @@
+.form-Content{
+display: flex;
+flex-direction: column;
+position: absolute;
+
+right: 0;
+}
+.searchInput, 
+.form-Content p {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 2rem;
+  width: 15vw;
+  font-size: .8vw;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #141414;
+  margin: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: white;
+}
+.searchInput:hover {
+  transition: 1s;
+  border: 1.5px solid #009688;
+  background-color: white;
+  color: black;
+}
+
+.form-Content {
+  margin-right: 5vw;
+}
+
+.form-Content p {
+  color: red;
+  border: none;
+  text-align: center;
+  padding: 10px 23px 0px 30px;
+}
+
+button{
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+  margin-left: 8px;
+  margin-right: 0;
+  margin-bottom: 0;
+  height: 2.3rem;
+  width: 4rem;
+  background-color:rgb(211, 248, 101);
+  
+}

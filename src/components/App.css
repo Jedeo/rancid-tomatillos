@@ -1,0 +1,16 @@
+.flexStyle {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.navbarForm {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarMovieDetails {
+  width: 100vw;
+}

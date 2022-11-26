@@ -1,0 +1,41 @@
+img {
+  border-radius: 10px;
+}
+
+.detailsContainer{
+ padding: 20px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: auto;
+ border-radius: 10px;
+ height: fit-content;
+}
+
+.moviePoster,.movieDetails{
+    padding: 10px;
+    margin: 8px;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: #141414;
+    opacity: 0.95;
+    color: white;
+}
+
+.movieDetails {
+    font-size: 1vw;
+    width: 54vw;
+    text: fit-content;
+    height: fit-Content;
+}
+.extraDetails{
+  opacity: 0.95;
+  background-color: #141414;
+  color: white;
+  border-radius: 10px;
+}
+.movieDetails h3 {
+  width: 52vw;
+  height: 10vh;
+  overflow: auto;
+}

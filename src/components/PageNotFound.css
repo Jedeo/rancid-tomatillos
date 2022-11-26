@@ -1,0 +1,10 @@
+body{
+    background-image: url('../images/lost.jpg');
+}
+
+.pageNotFoundContainer{
+    display: flex;
+    margin-top: 30vh;
+    flex-direction: column;
+    align-items: center
+}
