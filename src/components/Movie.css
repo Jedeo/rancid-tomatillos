@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 50px;
   background-color: #141414;
