@@ -1,23 +1,51 @@
 .posterImg {
-  height: 25vw;
+  height: auto;
   width: 16vw;
-  padding:1vw;
-  margin:1vw;
-  opacity: 0.9;
+  padding: 1vw;
   background-color: #141414;
   border-radius: 10px;
-  transition: all ease-in-out .2s;
-
 }
 
+.individualCard {
+  width: 18vw;
+}
 .posterImg:hover {
   background-position: 0;
-  opacity: 1;
-  height: 30vw;
-  width: 20vw;
-  box-shadow: 3px 1px 4px 2px #141414;
+  box-shadow: 3px 1px 4px 2px #c3bdbd;
   background-color: black;
-  transform: scale(1);
-  transform: rotate(-2deg);
-  transition: all ease-in-out .2s;
 }
+
+@media only screen and (max-width: 700px) {
+  .posterImg {
+    width: 40vw;
+    height: auto;
+    padding: 1vw;
+    background-color: #141414;
+    border-radius: 10px;
+  }
+
+  .individualCard {
+    margin: 1rem;
+    margin-right: 7rem;
+    margin-left: 0;
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .posterImg {
+    width: 100vw;
+    height: auto;
+    padding: 1vw;
+    background-color: #141414;
+    border-radius: 10px;
+  }
+
+  .individualCard {
+    margin: 1rem;
+    margin-right: 17rem;
+    margin-left: 0;
+    width: 20vw;
+  }
+}
+

@@ -1,9 +1,9 @@
 .movieData {
-  width: 90vw;
+  width: 86vw;
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 50px;
   background-color: #141414;
@@ -11,6 +11,35 @@
   background: rgba(20,20,20, .3)
 }
 
-.individualCard {
-  width: 300px;
+
+@media only screen and (max-width: 500px) {
+  .movieData {
+    width: 65vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #141414;
+    border-radius: 10px;
+    background: rgba(20,20,20, .3)
+  }
 }
+
+@media only screen and (max-width: 375px) {
+  .movieData {
+    width: 86vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #141414;
+    border-radius: 10px;
+    background: rgba(20,20,20, .3)
+  }
+ 
+}
+
