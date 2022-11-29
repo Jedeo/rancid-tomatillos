@@ -12,8 +12,8 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  position: relative;
-  right: 9vw;
+  position: absolute;
+  left: 0;
 }
 .potatoImg {
   height: 3rem;

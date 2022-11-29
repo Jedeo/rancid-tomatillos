@@ -2,7 +2,6 @@
 display: flex;
 flex-direction: column;
 position: absolute;
-
 right: 0;
 }
 .searchInput, 
@@ -20,6 +19,11 @@ right: 0;
   margin-bottom: 0;
   color: white;
 }
+
+.searchInput::placeholder{
+  font-size: 12px;
+}
+
 .searchInput:hover {
   transition: 1s;
   border: 1.5px solid #009688;
@@ -29,6 +33,11 @@ right: 0;
 
 .form-Content {
   margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 42px;
+  right: 0px;
 }
 
 .form-Content p {
@@ -50,4 +59,18 @@ button{
   width: 4rem;
   background-color:rgb(211, 248, 101);
   
+}
+
+@media only screen and (max-width: 500px) {
+  .form-Content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8em;
+    right: 0;
+    }
+    .searchInput{
+      transition: 1s;
+      width: 50vw;
+    }
 }

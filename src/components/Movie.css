@@ -8,7 +8,8 @@
   padding: 50px;
   background-color: #141414;
   border-radius: 10px;
-  background: rgba(20,20,20, .3)
+  background: rgba(20,20,20, .3);
+  margin-top: 10em;
 }
 
 
@@ -23,22 +24,14 @@
     padding: 50px;
     background-color: #141414;
     border-radius: 10px;
-    background: rgba(20,20,20, .3)
+    background: rgba(20,20,20, .3);
+    margin-top: 12em;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .movieData {
-    width: 86vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px;
-    background-color: #141414;
-    border-radius: 10px;
-    background: rgba(20,20,20, .3)
+    width: 100vw;
   }
  
 }
